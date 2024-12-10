@@ -266,7 +266,7 @@ gap: 2vw;
 
 
 .page2 h1 {
-color: #A8A8A8;
+color: #ffffff;
   text-align: center;
   font-size: 80px;
   text-shadow: 3px 3px 5px #888;
@@ -350,16 +350,18 @@ border: 2px solid rgb(255, 255, 255);
 .page3{
   width: 100vw;
   padding: 1vw 2vw;
-  height: 100vh;
+  height: 95vh;
   background-color: #000000;
 }
 .page3 h1{
   font-size: 65px;
-  font-weight: 100px;
+ 
   letter-spacing: 2px;
+  font-weight: 300;
   text-transform: uppercase;
-  text-align: center;
-  color: rgba(231, 231, 231, 0.726);
+  text-align: center; margin-bottom: 1vw;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 5px #888;
 }
 
 .service-container{
@@ -369,6 +371,7 @@ border: 2px solid rgb(255, 255, 255);
   padding: 1vw;
   display: flex;
   gap: 2vw;
+
 }
 
 .services{
@@ -381,6 +384,7 @@ border: 2px solid rgb(255, 255, 255);
   flex-direction: column;
   gap: 1vw;
   color: white;
+ align-items: center;
   background-color: #88888827;
   box-shadow: 3px 3px 20px rgb(66, 66, 66);
   transition: 0.6s ease all;
@@ -401,9 +405,25 @@ border: 2px solid rgb(255, 255, 255);
 }
 .services img {
   width: 25vw;
-  height: 55vh;
-  border-radius: 20px;
+  height: 50vh;
+  border-radius:20px;
   object-fit: cover;
+}
+.services button{
+  padding: 15px 25px;
+  font-size: 27px;
+  font-weight: 300;
+  background-color: #2e2e2e;
+  color: white;
+  width: 10vw;
+  border: none;
+  border-radius: 10px;
+transition: 0.3s ease all;
+}
+.services button:hover{
+ width: 12vw;
+  background-color: transparent;
+  border: 1px solid white;
 }
 .services:hover{
   background-color: #1b1b1b2f;
@@ -427,7 +447,7 @@ border: 2px solid rgb(255, 255, 255);
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.801);
+  background: rgba(0, 0, 0, 0.548);
   display: flex;
   flex-direction: column;
 align-items: center;
@@ -482,7 +502,7 @@ letter-spacing: 2px;
   display: flex;
   flex-direction: column;
   width: 100vw;
-  background-color: #181818de;
+  background-color: #000000;
   padding: 0vw 2vw;
 }
 footer{
