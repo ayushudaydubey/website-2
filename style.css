@@ -288,7 +288,7 @@ transition: 0.3s ease all;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 10px;
   color: #ffffff;
   align-items: center;
   border-radius: 5px;
@@ -363,12 +363,12 @@ border: 2px solid rgb(255, 255, 255);
 .services{
 
   border-radius: 20px;
-  width: 35vw;
+  width: 25vw;
  text-transform: uppercase;
  letter-spacing: 2px;
   display: flex;
   flex-direction: column;
-  gap: 1vw;
+  gap: 10px;
   color: white;
  align-items: center;
   background-color: #88888827;
